@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "name": "CLOUDERA_OPDB_REPLICATION",
+  "version": "1.0-1.CLOUDERA_OPDB_REPLICATION7.1.1.0.p0.2974089",
+  "extraVersionInfo": {
+    "fullVersion": "1.0-1.CLOUDERA_OPDB_REPLICATION7.1.1.0.p0.2974089.el7",
+    "baseVersion": "1.0",
+    "patchCount": "0"
+  },
+  "depends": "CDH (>= 7.1.1.0), hbase",
+  "scripts": {
+    "defines": "cloudera-opdb-replication_env.sh"
+  },
+  "setActiveSymlink": true,
+  "provides": [
+    "cloudera-opdb-replication"
+  ],
+  "components": [
+    {
+      "name": "cloudera-opdb-replication",
+      "version": "1.0-cloudera-opdb-replicationcdh7.1.1.0",
+      "pkg_version": "1.0+cloudera-opdb-replicationcdh7.1.1.0+0",
+      "pkg_release": "1.cloudera-opdb-replicationcdh7.1.1.0.p0.2974089"
+    }
+  ],
+  "packages": [
+    {
+      "name": "cloudera-opdb-replication",
+      "version": "1.0+cloudera-opdb-replicationcdh7.1.1.0+0"
+    }
+  ],
+  "users": {
+  },
+  "groups": [
+  ]
+}
